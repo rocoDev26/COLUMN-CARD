@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "BigShouldersDisplay";
+    font-weight: 700;
+    src: 
+    url("fonts/BigShouldersDisplay_Bold_700.ttf"),
+    format("ttf");
+}
+
+@font-face {
+    font-family: "LexendDeca";
+    font-weight: 400;
+    src: 
+    url("fonts/LexendDeca_Regular_400.ttf"),
+    format("ttf");
+}
+
+:root {
+
+    /* PRIMARY */
+    --bright-orange: hsl(31, 77%, 52%);
+    --bright-orange-400: hsla(31, 77%, 52%, 0.600);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    /* NEUTRAL */
+
+    /* paragraph */
+    --transparent-white: hsla(0, 0%, 100%, 0.75); 
+
+    /* backgrounds - headings - buttons */
+    --very-light-gray: hsl(0, 0%, 95%);
+
+    /* body copy */
+    --font-size: 15px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100dvh;
+}
+
+body {
+    min-height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.columCardSection {
+    
+}
+
+.columnCard {
+   
+}
